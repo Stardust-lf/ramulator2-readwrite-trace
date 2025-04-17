@@ -1,0 +1,48 @@
+Frontend:
+  impl: ReadWriteTrace
+  clock_ratio: 1 # 16 threads * 4GHz
+  num_expected_insts: 1000000
+  path: /home/fann/projects/cache_simulator/sampled_trace/502_sampled.txt
+  # path: /home/fann/Downloads/507
+  Translation:
+    impl: NoTranslation
+    max_addr: 18446744073709551616
+              
+
+MemorySystem:
+  impl: GenericDRAM
+  clock_ratio: 1
+
+  DRAM:
+    impl: DDR5
+    org:
+      preset: DDR5_32Gb_x4
+      channel: 1
+      rank: 2
+    timing:
+      preset: DDR5_3200AN
+    RFM:
+      BRC: 2
+
+  # DRAM:
+  #   impl: DDR4
+  #   org:
+  #     preset: DDR4_8Gb_x8
+  #     channel: 1
+  #     rank: 2
+  #   timing:
+  #     preset: DDR4_1600J 
+
+  Controller:
+    impl: Generic
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+    RowPolicy:
+      impl: OpenRowPolicy
+      cap: 4
+    plugins:
+
+  AddrMapper:
+    impl: RoBaRaCoCh
