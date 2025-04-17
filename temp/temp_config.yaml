@@ -2,7 +2,7 @@ Frontend:
   Translation:
     impl: NoTranslation
     max_addr: 18446744073709551616
-  clock_ratio: 64
+  clock_ratio: 1
   impl: ReadWriteTrace
   num_expected_insts: 1000000
   path: /home/fann/projects/cache_simulator/sampled_trace/541_sampled.txt
@@ -29,5 +29,5 @@ MemorySystem:
       rank: 2
     timing:
       preset: DDR5_3200AN
-  clock_ratio: 3
+  clock_ratio: 1
   impl: GenericDRAM

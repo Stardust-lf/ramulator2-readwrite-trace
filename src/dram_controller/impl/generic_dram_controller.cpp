@@ -18,7 +18,9 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
     float m_wr_low_watermark;
     float m_wr_high_watermark;
     bool  m_is_write_mode = false;
-
+    bool  m_prev_write_mode = false;
+    size_t m_write_mode_start_clk = 0;
+    
     size_t s_row_hits = 0;
     size_t s_row_misses = 0;
     size_t s_row_conflicts = 0;
@@ -321,7 +323,7 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
             // Check if this requests accesses the DRAM or is being forwarded.
             // TODO add the stats back
             s_read_latency += req.depart - req.arrive;
-            // std::cout<< "TOTAL LATENCY: " << req.depart - req.arrive << std::endl;
+            std::cout<< "TOTAL LATENCY: " << req.depart - req.arrive << std::endl;
           }
 
           if (req.callback) {
@@ -348,6 +350,15 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
         if ((m_write_buffer.size() < m_wr_low_watermark * m_write_buffer.max_size) && m_read_buffer.size() != 0) {
           m_is_write_mode = false;
         }
+      }
+      if (m_is_write_mode != m_prev_write_mode) {
+        if (m_is_write_mode) {
+          std::cout << "ENTER WRITE MODE AT CYCLE: " << m_clk << std::endl;
+          m_write_mode_start_clk = m_clk;
+        } else {
+          std::cout << "WRITE DURATION CYCLES: " << m_clk - m_write_mode_start_clk << std::endl; 
+        }
+        m_prev_write_mode = m_is_write_mode;
       }
     };
 

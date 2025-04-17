@@ -1,0 +1,3 @@
+/home/fann/projects/ramulator2-readwrite-trace/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.dir
+/home/fann/projects/ramulator2-readwrite-trace/build/_deps/spdlog-subbuild/CMakeFiles/edit_cache.dir
+/home/fann/projects/ramulator2-readwrite-trace/build/_deps/spdlog-subbuild/CMakeFiles/rebuild_cache.dir
