@@ -1,8 +1,9 @@
 Frontend:
   impl: ReadWriteTrace
-  clock_ratio: 1 # 16 threads * 4GHz
+  clock_ratio: 16 # 8 threads * 4GHz
+  # clock_ratio: 16
   num_expected_insts: 1000000
-  path: /home/fann/projects/cache_simulator/sampled_trace/502_sampled.txt
+  path: /home/fann/projects/cache_simulator/sampled_trace/527_sampled.txt
   # path: /home/fann/Downloads/507
   Translation:
     impl: NoTranslation
@@ -20,7 +21,8 @@ MemorySystem:
       channel: 1
       rank: 2
     timing:
-      preset: DDR5_3200AN
+      # preset: DDR5_3200AN
+      preset: DDR5_6400AN
     RFM:
       BRC: 2
 
@@ -35,6 +37,7 @@ MemorySystem:
 
   Controller:
     impl: Generic
+    wait_ratio: 1.3
     Scheduler:
       impl: FRFCFS
     RefreshManager:

@@ -1,0 +1,545 @@
+nohup: ignoring input
+Starting simulation for: 511_sampled.txt with slow chip freq 3200
+Finished simulation for: 511_sampled.txt
+Starting simulation for: 505_sampled.txt with slow chip freq 3200
+Finished simulation for: 505_sampled.txt
+Starting simulation for: 507_sampled.txt with slow chip freq 3200
+Finished simulation for: 507_sampled.txt
+Starting simulation for: sssp_road_sampled.txt with slow chip freq 3200
+Finished simulation for: sssp_road_sampled.txt
+Starting simulation for: 548_sampled.txt with slow chip freq 3200
+Finished simulation for: 548_sampled.txt
+Starting simulation for: sssp_twitter_sampled.txt with slow chip freq 3200
+Finished simulation for: sssp_twitter_sampled.txt
+Starting simulation for: 525_sampled.txt with slow chip freq 3200
+Finished simulation for: 525_sampled.txt
+Starting simulation for: 544_sampled.txt with slow chip freq 3200
+Finished simulation for: 544_sampled.txt
+Starting simulation for: tc_twitter_sampled.txt with slow chip freq 3200
+Finished simulation for: tc_twitter_sampled.txt
+Starting simulation for: 519_sampled.txt with slow chip freq 3200
+Finished simulation for: 519_sampled.txt
+Starting simulation for: 526_sampled.txt with slow chip freq 3200
+Finished simulation for: 526_sampled.txt
+Starting simulation for: cc_road_sampled.txt with slow chip freq 3200
+Finished simulation for: cc_road_sampled.txt
+Starting simulation for: bfs_road_sampled.txt with slow chip freq 3200
+Finished simulation for: bfs_road_sampled.txt
+Starting simulation for: bc_twitter_sampled.txt with slow chip freq 3200
+Finished simulation for: bc_twitter_sampled.txt
+Starting simulation for: cc_twitter_sampled.txt with slow chip freq 3200
+Finished simulation for: cc_twitter_sampled.txt
+Starting simulation for: 527_sampled.txt with slow chip freq 3200
+Finished simulation for: 527_sampled.txt
+Starting simulation for: 502_sampled.txt with slow chip freq 3200
+Finished simulation for: 502_sampled.txt
+Starting simulation for: 500_sampled.txt with slow chip freq 3200
+Finished simulation for: 500_sampled.txt
+Starting simulation for: bfs_twitter_sampled.txt with slow chip freq 3200
+Finished simulation for: bfs_twitter_sampled.txt
+Starting simulation for: 508_sampled.txt with slow chip freq 3200
+Finished simulation for: 508_sampled.txt
+Starting simulation for: bc_road_sampled.txt with slow chip freq 3200
+Finished simulation for: bc_road_sampled.txt
+Starting simulation for: 549_sampled.txt with slow chip freq 3200
+Finished simulation for: 549_sampled.txt
+Starting simulation for: 521_sampled.txt with slow chip freq 3200
+Finished simulation for: 521_sampled.txt
+Starting simulation for: 531_sampled.txt with slow chip freq 3200
+Finished simulation for: 531_sampled.txt
+Starting simulation for: 538_sampled.txt with slow chip freq 3200
+Finished simulation for: 538_sampled.txt
+Starting simulation for: pr_road_sampled.txt with slow chip freq 3200
+Finished simulation for: pr_road_sampled.txt
+Starting simulation for: 503_sampled.txt with slow chip freq 3200
+Finished simulation for: 503_sampled.txt
+Starting simulation for: 554_sampled.txt with slow chip freq 3200
+Finished simulation for: 554_sampled.txt
+Starting simulation for: 510_sampled.txt with slow chip freq 3200
+Finished simulation for: 510_sampled.txt
+Starting simulation for: tc_road_sampled.txt with slow chip freq 3200
+Finished simulation for: tc_road_sampled.txt
+Starting simulation for: 557_sampled.txt with slow chip freq 3200
+Finished simulation for: 557_sampled.txt
+Starting simulation for: 523_sampled.txt with slow chip freq 3200
+Finished simulation for: 523_sampled.txt
+Starting simulation for: 520_sampled.txt with slow chip freq 3200
+Finished simulation for: 520_sampled.txt
+Starting simulation for: 541_sampled.txt with slow chip freq 3200
+Finished simulation for: 541_sampled.txt
+Starting simulation for: 511_sampled.txt with slow chip freq 3600
+Finished simulation for: 511_sampled.txt
+Starting simulation for: 505_sampled.txt with slow chip freq 3600
+Finished simulation for: 505_sampled.txt
+Starting simulation for: 507_sampled.txt with slow chip freq 3600
+Finished simulation for: 507_sampled.txt
+Starting simulation for: sssp_road_sampled.txt with slow chip freq 3600
+Finished simulation for: sssp_road_sampled.txt
+Starting simulation for: 548_sampled.txt with slow chip freq 3600
+Finished simulation for: 548_sampled.txt
+Starting simulation for: sssp_twitter_sampled.txt with slow chip freq 3600
+Finished simulation for: sssp_twitter_sampled.txt
+Starting simulation for: 525_sampled.txt with slow chip freq 3600
+Finished simulation for: 525_sampled.txt
+Starting simulation for: 544_sampled.txt with slow chip freq 3600
+Finished simulation for: 544_sampled.txt
+Starting simulation for: tc_twitter_sampled.txt with slow chip freq 3600
+Finished simulation for: tc_twitter_sampled.txt
+Starting simulation for: 519_sampled.txt with slow chip freq 3600
+Finished simulation for: 519_sampled.txt
+Starting simulation for: 526_sampled.txt with slow chip freq 3600
+Finished simulation for: 526_sampled.txt
+Starting simulation for: cc_road_sampled.txt with slow chip freq 3600
+Finished simulation for: cc_road_sampled.txt
+Starting simulation for: bfs_road_sampled.txt with slow chip freq 3600
+Finished simulation for: bfs_road_sampled.txt
+Starting simulation for: bc_twitter_sampled.txt with slow chip freq 3600
+Finished simulation for: bc_twitter_sampled.txt
+Starting simulation for: cc_twitter_sampled.txt with slow chip freq 3600
+Finished simulation for: cc_twitter_sampled.txt
+Starting simulation for: 527_sampled.txt with slow chip freq 3600
+Finished simulation for: 527_sampled.txt
+Starting simulation for: 502_sampled.txt with slow chip freq 3600
+Finished simulation for: 502_sampled.txt
+Starting simulation for: 500_sampled.txt with slow chip freq 3600
+Finished simulation for: 500_sampled.txt
+Starting simulation for: bfs_twitter_sampled.txt with slow chip freq 3600
+Finished simulation for: bfs_twitter_sampled.txt
+Starting simulation for: 508_sampled.txt with slow chip freq 3600
+Finished simulation for: 508_sampled.txt
+Starting simulation for: bc_road_sampled.txt with slow chip freq 3600
+Finished simulation for: bc_road_sampled.txt
+Starting simulation for: 549_sampled.txt with slow chip freq 3600
+Finished simulation for: 549_sampled.txt
+Starting simulation for: 521_sampled.txt with slow chip freq 3600
+Finished simulation for: 521_sampled.txt
+Starting simulation for: 531_sampled.txt with slow chip freq 3600
+Finished simulation for: 531_sampled.txt
+Starting simulation for: 538_sampled.txt with slow chip freq 3600
+Finished simulation for: 538_sampled.txt
+Starting simulation for: pr_road_sampled.txt with slow chip freq 3600
+Finished simulation for: pr_road_sampled.txt
+Starting simulation for: 503_sampled.txt with slow chip freq 3600
+Finished simulation for: 503_sampled.txt
+Starting simulation for: 554_sampled.txt with slow chip freq 3600
+Finished simulation for: 554_sampled.txt
+Starting simulation for: 510_sampled.txt with slow chip freq 3600
+Finished simulation for: 510_sampled.txt
+Starting simulation for: tc_road_sampled.txt with slow chip freq 3600
+Finished simulation for: tc_road_sampled.txt
+Starting simulation for: 557_sampled.txt with slow chip freq 3600
+Finished simulation for: 557_sampled.txt
+Starting simulation for: 523_sampled.txt with slow chip freq 3600
+Finished simulation for: 523_sampled.txt
+Starting simulation for: 520_sampled.txt with slow chip freq 3600
+Finished simulation for: 520_sampled.txt
+Starting simulation for: 541_sampled.txt with slow chip freq 3600
+Finished simulation for: 541_sampled.txt
+Starting simulation for: 511_sampled.txt with slow chip freq 4000
+Finished simulation for: 511_sampled.txt
+Starting simulation for: 505_sampled.txt with slow chip freq 4000
+Finished simulation for: 505_sampled.txt
+Starting simulation for: 507_sampled.txt with slow chip freq 4000
+Finished simulation for: 507_sampled.txt
+Starting simulation for: sssp_road_sampled.txt with slow chip freq 4000
+Finished simulation for: sssp_road_sampled.txt
+Starting simulation for: 548_sampled.txt with slow chip freq 4000
+Finished simulation for: 548_sampled.txt
+Starting simulation for: sssp_twitter_sampled.txt with slow chip freq 4000
+Finished simulation for: sssp_twitter_sampled.txt
+Starting simulation for: 525_sampled.txt with slow chip freq 4000
+Finished simulation for: 525_sampled.txt
+Starting simulation for: 544_sampled.txt with slow chip freq 4000
+Finished simulation for: 544_sampled.txt
+Starting simulation for: tc_twitter_sampled.txt with slow chip freq 4000
+Finished simulation for: tc_twitter_sampled.txt
+Starting simulation for: 519_sampled.txt with slow chip freq 4000
+Finished simulation for: 519_sampled.txt
+Starting simulation for: 526_sampled.txt with slow chip freq 4000
+Finished simulation for: 526_sampled.txt
+Starting simulation for: cc_road_sampled.txt with slow chip freq 4000
+Finished simulation for: cc_road_sampled.txt
+Starting simulation for: bfs_road_sampled.txt with slow chip freq 4000
+Finished simulation for: bfs_road_sampled.txt
+Starting simulation for: bc_twitter_sampled.txt with slow chip freq 4000
+Finished simulation for: bc_twitter_sampled.txt
+Starting simulation for: cc_twitter_sampled.txt with slow chip freq 4000
+Finished simulation for: cc_twitter_sampled.txt
+Starting simulation for: 527_sampled.txt with slow chip freq 4000
+Finished simulation for: 527_sampled.txt
+Starting simulation for: 502_sampled.txt with slow chip freq 4000
+Finished simulation for: 502_sampled.txt
+Starting simulation for: 500_sampled.txt with slow chip freq 4000
+Finished simulation for: 500_sampled.txt
+Starting simulation for: bfs_twitter_sampled.txt with slow chip freq 4000
+Finished simulation for: bfs_twitter_sampled.txt
+Starting simulation for: 508_sampled.txt with slow chip freq 4000
+Finished simulation for: 508_sampled.txt
+Starting simulation for: bc_road_sampled.txt with slow chip freq 4000
+Finished simulation for: bc_road_sampled.txt
+Starting simulation for: 549_sampled.txt with slow chip freq 4000
+Finished simulation for: 549_sampled.txt
+Starting simulation for: 521_sampled.txt with slow chip freq 4000
+Finished simulation for: 521_sampled.txt
+Starting simulation for: 531_sampled.txt with slow chip freq 4000
+Finished simulation for: 531_sampled.txt
+Starting simulation for: 538_sampled.txt with slow chip freq 4000
+Finished simulation for: 538_sampled.txt
+Starting simulation for: pr_road_sampled.txt with slow chip freq 4000
+Finished simulation for: pr_road_sampled.txt
+Starting simulation for: 503_sampled.txt with slow chip freq 4000
+Finished simulation for: 503_sampled.txt
+Starting simulation for: 554_sampled.txt with slow chip freq 4000
+Finished simulation for: 554_sampled.txt
+Starting simulation for: 510_sampled.txt with slow chip freq 4000
+Finished simulation for: 510_sampled.txt
+Starting simulation for: tc_road_sampled.txt with slow chip freq 4000
+Finished simulation for: tc_road_sampled.txt
+Starting simulation for: 557_sampled.txt with slow chip freq 4000
+Finished simulation for: 557_sampled.txt
+Starting simulation for: 523_sampled.txt with slow chip freq 4000
+Finished simulation for: 523_sampled.txt
+Starting simulation for: 520_sampled.txt with slow chip freq 4000
+Finished simulation for: 520_sampled.txt
+Starting simulation for: 541_sampled.txt with slow chip freq 4000
+Finished simulation for: 541_sampled.txt
+Starting simulation for: 511_sampled.txt with slow chip freq 4400
+Finished simulation for: 511_sampled.txt
+Starting simulation for: 505_sampled.txt with slow chip freq 4400
+Finished simulation for: 505_sampled.txt
+Starting simulation for: 507_sampled.txt with slow chip freq 4400
+Finished simulation for: 507_sampled.txt
+Starting simulation for: sssp_road_sampled.txt with slow chip freq 4400
+Finished simulation for: sssp_road_sampled.txt
+Starting simulation for: 548_sampled.txt with slow chip freq 4400
+Finished simulation for: 548_sampled.txt
+Starting simulation for: sssp_twitter_sampled.txt with slow chip freq 4400
+Finished simulation for: sssp_twitter_sampled.txt
+Starting simulation for: 525_sampled.txt with slow chip freq 4400
+Finished simulation for: 525_sampled.txt
+Starting simulation for: 544_sampled.txt with slow chip freq 4400
+Finished simulation for: 544_sampled.txt
+Starting simulation for: tc_twitter_sampled.txt with slow chip freq 4400
+Finished simulation for: tc_twitter_sampled.txt
+Starting simulation for: 519_sampled.txt with slow chip freq 4400
+Finished simulation for: 519_sampled.txt
+Starting simulation for: 526_sampled.txt with slow chip freq 4400
+Finished simulation for: 526_sampled.txt
+Starting simulation for: cc_road_sampled.txt with slow chip freq 4400
+Finished simulation for: cc_road_sampled.txt
+Starting simulation for: bfs_road_sampled.txt with slow chip freq 4400
+Finished simulation for: bfs_road_sampled.txt
+Starting simulation for: bc_twitter_sampled.txt with slow chip freq 4400
+Finished simulation for: bc_twitter_sampled.txt
+Starting simulation for: cc_twitter_sampled.txt with slow chip freq 4400
+Finished simulation for: cc_twitter_sampled.txt
+Starting simulation for: 527_sampled.txt with slow chip freq 4400
+Finished simulation for: 527_sampled.txt
+Starting simulation for: 502_sampled.txt with slow chip freq 4400
+Finished simulation for: 502_sampled.txt
+Starting simulation for: 500_sampled.txt with slow chip freq 4400
+Finished simulation for: 500_sampled.txt
+Starting simulation for: bfs_twitter_sampled.txt with slow chip freq 4400
+Finished simulation for: bfs_twitter_sampled.txt
+Starting simulation for: 508_sampled.txt with slow chip freq 4400
+Finished simulation for: 508_sampled.txt
+Starting simulation for: bc_road_sampled.txt with slow chip freq 4400
+Finished simulation for: bc_road_sampled.txt
+Starting simulation for: 549_sampled.txt with slow chip freq 4400
+Finished simulation for: 549_sampled.txt
+Starting simulation for: 521_sampled.txt with slow chip freq 4400
+Finished simulation for: 521_sampled.txt
+Starting simulation for: 531_sampled.txt with slow chip freq 4400
+Finished simulation for: 531_sampled.txt
+Starting simulation for: 538_sampled.txt with slow chip freq 4400
+Finished simulation for: 538_sampled.txt
+Starting simulation for: pr_road_sampled.txt with slow chip freq 4400
+Finished simulation for: pr_road_sampled.txt
+Starting simulation for: 503_sampled.txt with slow chip freq 4400
+Finished simulation for: 503_sampled.txt
+Starting simulation for: 554_sampled.txt with slow chip freq 4400
+Finished simulation for: 554_sampled.txt
+Starting simulation for: 510_sampled.txt with slow chip freq 4400
+Finished simulation for: 510_sampled.txt
+Starting simulation for: tc_road_sampled.txt with slow chip freq 4400
+Finished simulation for: tc_road_sampled.txt
+Starting simulation for: 557_sampled.txt with slow chip freq 4400
+Finished simulation for: 557_sampled.txt
+Starting simulation for: 523_sampled.txt with slow chip freq 4400
+Finished simulation for: 523_sampled.txt
+Starting simulation for: 520_sampled.txt with slow chip freq 4400
+Finished simulation for: 520_sampled.txt
+Starting simulation for: 541_sampled.txt with slow chip freq 4400
+Finished simulation for: 541_sampled.txt
+Starting simulation for: 511_sampled.txt with slow chip freq 4800
+Finished simulation for: 511_sampled.txt
+Starting simulation for: 505_sampled.txt with slow chip freq 4800
+Finished simulation for: 505_sampled.txt
+Starting simulation for: 507_sampled.txt with slow chip freq 4800
+Finished simulation for: 507_sampled.txt
+Starting simulation for: sssp_road_sampled.txt with slow chip freq 4800
+Finished simulation for: sssp_road_sampled.txt
+Starting simulation for: 548_sampled.txt with slow chip freq 4800
+Finished simulation for: 548_sampled.txt
+Starting simulation for: sssp_twitter_sampled.txt with slow chip freq 4800
+Finished simulation for: sssp_twitter_sampled.txt
+Starting simulation for: 525_sampled.txt with slow chip freq 4800
+Finished simulation for: 525_sampled.txt
+Starting simulation for: 544_sampled.txt with slow chip freq 4800
+Finished simulation for: 544_sampled.txt
+Starting simulation for: tc_twitter_sampled.txt with slow chip freq 4800
+Finished simulation for: tc_twitter_sampled.txt
+Starting simulation for: 519_sampled.txt with slow chip freq 4800
+Finished simulation for: 519_sampled.txt
+Starting simulation for: 526_sampled.txt with slow chip freq 4800
+Finished simulation for: 526_sampled.txt
+Starting simulation for: cc_road_sampled.txt with slow chip freq 4800
+Finished simulation for: cc_road_sampled.txt
+Starting simulation for: bfs_road_sampled.txt with slow chip freq 4800
+Finished simulation for: bfs_road_sampled.txt
+Starting simulation for: bc_twitter_sampled.txt with slow chip freq 4800
+Finished simulation for: bc_twitter_sampled.txt
+Starting simulation for: cc_twitter_sampled.txt with slow chip freq 4800
+Finished simulation for: cc_twitter_sampled.txt
+Starting simulation for: 527_sampled.txt with slow chip freq 4800
+Finished simulation for: 527_sampled.txt
+Starting simulation for: 502_sampled.txt with slow chip freq 4800
+Finished simulation for: 502_sampled.txt
+Starting simulation for: 500_sampled.txt with slow chip freq 4800
+Finished simulation for: 500_sampled.txt
+Starting simulation for: bfs_twitter_sampled.txt with slow chip freq 4800
+Finished simulation for: bfs_twitter_sampled.txt
+Starting simulation for: 508_sampled.txt with slow chip freq 4800
+Finished simulation for: 508_sampled.txt
+Starting simulation for: bc_road_sampled.txt with slow chip freq 4800
+Finished simulation for: bc_road_sampled.txt
+Starting simulation for: 549_sampled.txt with slow chip freq 4800
+Finished simulation for: 549_sampled.txt
+Starting simulation for: 521_sampled.txt with slow chip freq 4800
+Finished simulation for: 521_sampled.txt
+Starting simulation for: 531_sampled.txt with slow chip freq 4800
+Finished simulation for: 531_sampled.txt
+Starting simulation for: 538_sampled.txt with slow chip freq 4800
+Finished simulation for: 538_sampled.txt
+Starting simulation for: pr_road_sampled.txt with slow chip freq 4800
+Finished simulation for: pr_road_sampled.txt
+Starting simulation for: 503_sampled.txt with slow chip freq 4800
+Finished simulation for: 503_sampled.txt
+Starting simulation for: 554_sampled.txt with slow chip freq 4800
+Finished simulation for: 554_sampled.txt
+Starting simulation for: 510_sampled.txt with slow chip freq 4800
+Finished simulation for: 510_sampled.txt
+Starting simulation for: tc_road_sampled.txt with slow chip freq 4800
+Finished simulation for: tc_road_sampled.txt
+Starting simulation for: 557_sampled.txt with slow chip freq 4800
+Finished simulation for: 557_sampled.txt
+Starting simulation for: 523_sampled.txt with slow chip freq 4800
+Finished simulation for: 523_sampled.txt
+Starting simulation for: 520_sampled.txt with slow chip freq 4800
+Finished simulation for: 520_sampled.txt
+Starting simulation for: 541_sampled.txt with slow chip freq 4800
+Finished simulation for: 541_sampled.txt
+Starting simulation for: 511_sampled.txt with slow chip freq 5200
+Finished simulation for: 511_sampled.txt
+Starting simulation for: 505_sampled.txt with slow chip freq 5200
+Finished simulation for: 505_sampled.txt
+Starting simulation for: 507_sampled.txt with slow chip freq 5200
+Finished simulation for: 507_sampled.txt
+Starting simulation for: sssp_road_sampled.txt with slow chip freq 5200
+Finished simulation for: sssp_road_sampled.txt
+Starting simulation for: 548_sampled.txt with slow chip freq 5200
+Finished simulation for: 548_sampled.txt
+Starting simulation for: sssp_twitter_sampled.txt with slow chip freq 5200
+Finished simulation for: sssp_twitter_sampled.txt
+Starting simulation for: 525_sampled.txt with slow chip freq 5200
+Finished simulation for: 525_sampled.txt
+Starting simulation for: 544_sampled.txt with slow chip freq 5200
+Finished simulation for: 544_sampled.txt
+Starting simulation for: tc_twitter_sampled.txt with slow chip freq 5200
+Finished simulation for: tc_twitter_sampled.txt
+Starting simulation for: 519_sampled.txt with slow chip freq 5200
+Finished simulation for: 519_sampled.txt
+Starting simulation for: 526_sampled.txt with slow chip freq 5200
+Finished simulation for: 526_sampled.txt
+Starting simulation for: cc_road_sampled.txt with slow chip freq 5200
+Finished simulation for: cc_road_sampled.txt
+Starting simulation for: bfs_road_sampled.txt with slow chip freq 5200
+Finished simulation for: bfs_road_sampled.txt
+Starting simulation for: bc_twitter_sampled.txt with slow chip freq 5200
+Finished simulation for: bc_twitter_sampled.txt
+Starting simulation for: cc_twitter_sampled.txt with slow chip freq 5200
+Finished simulation for: cc_twitter_sampled.txt
+Starting simulation for: 527_sampled.txt with slow chip freq 5200
+Finished simulation for: 527_sampled.txt
+Starting simulation for: 502_sampled.txt with slow chip freq 5200
+Finished simulation for: 502_sampled.txt
+Starting simulation for: 500_sampled.txt with slow chip freq 5200
+Finished simulation for: 500_sampled.txt
+Starting simulation for: bfs_twitter_sampled.txt with slow chip freq 5200
+Finished simulation for: bfs_twitter_sampled.txt
+Starting simulation for: 508_sampled.txt with slow chip freq 5200
+Finished simulation for: 508_sampled.txt
+Starting simulation for: bc_road_sampled.txt with slow chip freq 5200
+Finished simulation for: bc_road_sampled.txt
+Starting simulation for: 549_sampled.txt with slow chip freq 5200
+Finished simulation for: 549_sampled.txt
+Starting simulation for: 521_sampled.txt with slow chip freq 5200
+Finished simulation for: 521_sampled.txt
+Starting simulation for: 531_sampled.txt with slow chip freq 5200
+Finished simulation for: 531_sampled.txt
+Starting simulation for: 538_sampled.txt with slow chip freq 5200
+Finished simulation for: 538_sampled.txt
+Starting simulation for: pr_road_sampled.txt with slow chip freq 5200
+Finished simulation for: pr_road_sampled.txt
+Starting simulation for: 503_sampled.txt with slow chip freq 5200
+Finished simulation for: 503_sampled.txt
+Starting simulation for: 554_sampled.txt with slow chip freq 5200
+Finished simulation for: 554_sampled.txt
+Starting simulation for: 510_sampled.txt with slow chip freq 5200
+Finished simulation for: 510_sampled.txt
+Starting simulation for: tc_road_sampled.txt with slow chip freq 5200
+Finished simulation for: tc_road_sampled.txt
+Starting simulation for: 557_sampled.txt with slow chip freq 5200
+Finished simulation for: 557_sampled.txt
+Starting simulation for: 523_sampled.txt with slow chip freq 5200
+Finished simulation for: 523_sampled.txt
+Starting simulation for: 520_sampled.txt with slow chip freq 5200
+Finished simulation for: 520_sampled.txt
+Starting simulation for: 541_sampled.txt with slow chip freq 5200
+Finished simulation for: 541_sampled.txt
+Starting simulation for: 511_sampled.txt with slow chip freq 5600
+Finished simulation for: 511_sampled.txt
+Starting simulation for: 505_sampled.txt with slow chip freq 5600
+Finished simulation for: 505_sampled.txt
+Starting simulation for: 507_sampled.txt with slow chip freq 5600
+Finished simulation for: 507_sampled.txt
+Starting simulation for: sssp_road_sampled.txt with slow chip freq 5600
+Finished simulation for: sssp_road_sampled.txt
+Starting simulation for: 548_sampled.txt with slow chip freq 5600
+Finished simulation for: 548_sampled.txt
+Starting simulation for: sssp_twitter_sampled.txt with slow chip freq 5600
+Finished simulation for: sssp_twitter_sampled.txt
+Starting simulation for: 525_sampled.txt with slow chip freq 5600
+Finished simulation for: 525_sampled.txt
+Starting simulation for: 544_sampled.txt with slow chip freq 5600
+Finished simulation for: 544_sampled.txt
+Starting simulation for: tc_twitter_sampled.txt with slow chip freq 5600
+Finished simulation for: tc_twitter_sampled.txt
+Starting simulation for: 519_sampled.txt with slow chip freq 5600
+Finished simulation for: 519_sampled.txt
+Starting simulation for: 526_sampled.txt with slow chip freq 5600
+Finished simulation for: 526_sampled.txt
+Starting simulation for: cc_road_sampled.txt with slow chip freq 5600
+Finished simulation for: cc_road_sampled.txt
+Starting simulation for: bfs_road_sampled.txt with slow chip freq 5600
+Finished simulation for: bfs_road_sampled.txt
+Starting simulation for: bc_twitter_sampled.txt with slow chip freq 5600
+Finished simulation for: bc_twitter_sampled.txt
+Starting simulation for: cc_twitter_sampled.txt with slow chip freq 5600
+Finished simulation for: cc_twitter_sampled.txt
+Starting simulation for: 527_sampled.txt with slow chip freq 5600
+Finished simulation for: 527_sampled.txt
+Starting simulation for: 502_sampled.txt with slow chip freq 5600
+Finished simulation for: 502_sampled.txt
+Starting simulation for: 500_sampled.txt with slow chip freq 5600
+Finished simulation for: 500_sampled.txt
+Starting simulation for: bfs_twitter_sampled.txt with slow chip freq 5600
+Finished simulation for: bfs_twitter_sampled.txt
+Starting simulation for: 508_sampled.txt with slow chip freq 5600
+Finished simulation for: 508_sampled.txt
+Starting simulation for: bc_road_sampled.txt with slow chip freq 5600
+Finished simulation for: bc_road_sampled.txt
+Starting simulation for: 549_sampled.txt with slow chip freq 5600
+Finished simulation for: 549_sampled.txt
+Starting simulation for: 521_sampled.txt with slow chip freq 5600
+Finished simulation for: 521_sampled.txt
+Starting simulation for: 531_sampled.txt with slow chip freq 5600
+Finished simulation for: 531_sampled.txt
+Starting simulation for: 538_sampled.txt with slow chip freq 5600
+Finished simulation for: 538_sampled.txt
+Starting simulation for: pr_road_sampled.txt with slow chip freq 5600
+Finished simulation for: pr_road_sampled.txt
+Starting simulation for: 503_sampled.txt with slow chip freq 5600
+Finished simulation for: 503_sampled.txt
+Starting simulation for: 554_sampled.txt with slow chip freq 5600
+Finished simulation for: 554_sampled.txt
+Starting simulation for: 510_sampled.txt with slow chip freq 5600
+Finished simulation for: 510_sampled.txt
+Starting simulation for: tc_road_sampled.txt with slow chip freq 5600
+Finished simulation for: tc_road_sampled.txt
+Starting simulation for: 557_sampled.txt with slow chip freq 5600
+Finished simulation for: 557_sampled.txt
+Starting simulation for: 523_sampled.txt with slow chip freq 5600
+Finished simulation for: 523_sampled.txt
+Starting simulation for: 520_sampled.txt with slow chip freq 5600
+Finished simulation for: 520_sampled.txt
+Starting simulation for: 541_sampled.txt with slow chip freq 5600
+Finished simulation for: 541_sampled.txt
+Starting simulation for: 511_sampled.txt with slow chip freq 6000
+Finished simulation for: 511_sampled.txt
+Starting simulation for: 505_sampled.txt with slow chip freq 6000
+Finished simulation for: 505_sampled.txt
+Starting simulation for: 507_sampled.txt with slow chip freq 6000
+Finished simulation for: 507_sampled.txt
+Starting simulation for: sssp_road_sampled.txt with slow chip freq 6000
+Finished simulation for: sssp_road_sampled.txt
+Starting simulation for: 548_sampled.txt with slow chip freq 6000
+Finished simulation for: 548_sampled.txt
+Starting simulation for: sssp_twitter_sampled.txt with slow chip freq 6000
+Finished simulation for: sssp_twitter_sampled.txt
+Starting simulation for: 525_sampled.txt with slow chip freq 6000
+Finished simulation for: 525_sampled.txt
+Starting simulation for: 544_sampled.txt with slow chip freq 6000
+Finished simulation for: 544_sampled.txt
+Starting simulation for: tc_twitter_sampled.txt with slow chip freq 6000
+Finished simulation for: tc_twitter_sampled.txt
+Starting simulation for: 519_sampled.txt with slow chip freq 6000
+Finished simulation for: 519_sampled.txt
+Starting simulation for: 526_sampled.txt with slow chip freq 6000
+Finished simulation for: 526_sampled.txt
+Starting simulation for: cc_road_sampled.txt with slow chip freq 6000
+Finished simulation for: cc_road_sampled.txt
+Starting simulation for: bfs_road_sampled.txt with slow chip freq 6000
+Finished simulation for: bfs_road_sampled.txt
+Starting simulation for: bc_twitter_sampled.txt with slow chip freq 6000
+Finished simulation for: bc_twitter_sampled.txt
+Starting simulation for: cc_twitter_sampled.txt with slow chip freq 6000
+Finished simulation for: cc_twitter_sampled.txt
+Starting simulation for: 527_sampled.txt with slow chip freq 6000
+Finished simulation for: 527_sampled.txt
+Starting simulation for: 502_sampled.txt with slow chip freq 6000
+Finished simulation for: 502_sampled.txt
+Starting simulation for: 500_sampled.txt with slow chip freq 6000
+Finished simulation for: 500_sampled.txt
+Starting simulation for: bfs_twitter_sampled.txt with slow chip freq 6000
+Finished simulation for: bfs_twitter_sampled.txt
+Starting simulation for: 508_sampled.txt with slow chip freq 6000
+Finished simulation for: 508_sampled.txt
+Starting simulation for: bc_road_sampled.txt with slow chip freq 6000
+Finished simulation for: bc_road_sampled.txt
+Starting simulation for: 549_sampled.txt with slow chip freq 6000
+Finished simulation for: 549_sampled.txt
+Starting simulation for: 521_sampled.txt with slow chip freq 6000
+Finished simulation for: 521_sampled.txt
+Starting simulation for: 531_sampled.txt with slow chip freq 6000
+Finished simulation for: 531_sampled.txt
+Starting simulation for: 538_sampled.txt with slow chip freq 6000
+Finished simulation for: 538_sampled.txt
+Starting simulation for: pr_road_sampled.txt with slow chip freq 6000
+Finished simulation for: pr_road_sampled.txt
+Starting simulation for: 503_sampled.txt with slow chip freq 6000
+Finished simulation for: 503_sampled.txt
+Starting simulation for: 554_sampled.txt with slow chip freq 6000
+Finished simulation for: 554_sampled.txt
+Starting simulation for: 510_sampled.txt with slow chip freq 6000
+Finished simulation for: 510_sampled.txt
+Starting simulation for: tc_road_sampled.txt with slow chip freq 6000
+Finished simulation for: tc_road_sampled.txt
+Starting simulation for: 557_sampled.txt with slow chip freq 6000
+Finished simulation for: 557_sampled.txt
+Starting simulation for: 523_sampled.txt with slow chip freq 6000
+Finished simulation for: 523_sampled.txt
+Starting simulation for: 520_sampled.txt with slow chip freq 6000
+Finished simulation for: 520_sampled.txt
+Starting simulation for: 541_sampled.txt with slow chip freq 6000
+Finished simulation for: 541_sampled.txt

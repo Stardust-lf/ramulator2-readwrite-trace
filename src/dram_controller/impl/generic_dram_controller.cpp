@@ -17,9 +17,13 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
 
     float m_wr_low_watermark;
     float m_wr_high_watermark;
+    float m_wait_ratio;
     bool  m_is_write_mode = false;
     bool  m_prev_write_mode = false;
     size_t m_write_mode_start_clk = 0;
+    size_t m_write_mode_insts = 0;
+    Clk_t m_wait_panalty_cycle = 0;
+    Clk_t m_wait_cycles = 0;
     
     size_t s_row_hits = 0;
     size_t s_row_misses = 0;
@@ -50,12 +54,14 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
 
     size_t s_read_latency = 0;
     float s_avg_read_latency = 0;
+    float s_wait_ratio = 0;
 
 
   public:
     void init() override {
       m_wr_low_watermark =  param<float>("wr_low_watermark").desc("Threshold for switching back to read mode.").default_val(0.2f);
       m_wr_high_watermark = param<float>("wr_high_watermark").desc("Threshold for switching to write mode.").default_val(0.8f);
+      m_wait_ratio = param<float>("wait_ratio").desc("Slow ratio of wait.").required();
 
       m_scheduler = create_child_ifce<IScheduler>();
       m_refresh = create_child_ifce<IRefreshManager>();    
@@ -110,6 +116,7 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
 
       register_stat(s_read_latency).name("read_latency_{}", m_channel_id);
       register_stat(s_avg_read_latency).name("avg_read_latency_{}", m_channel_id);
+      register_stat(s_wait_ratio).name("total_wait_cycles{}", m_channel_id);
     };
 
     bool send(Request& req) override {
@@ -227,6 +234,7 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
             req_it->depart = m_clk + m_dram->m_read_latency;
             pending.push_back(*req_it);
           } else if (req_it->type_id == Request::Type::Write) {
+            m_write_mode_insts++ ;
             // TODO: Add code to update statistics
           }
           buffer->remove(req_it);
@@ -323,7 +331,6 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
             // Check if this requests accesses the DRAM or is being forwarded.
             // TODO add the stats back
             s_read_latency += req.depart - req.arrive;
-            std::cout<< "TOTAL LATENCY: " << req.depart - req.arrive << std::endl;
           }
 
           if (req.callback) {
@@ -343,7 +350,7 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
      */
     void set_write_mode() {
       if (!m_is_write_mode) {
-        if ((m_write_buffer.size() > m_wr_high_watermark * m_write_buffer.max_size) || m_read_buffer.size() == 0) {
+        if ((m_write_buffer.size() > m_wr_high_watermark * m_write_buffer.max_size) || (m_read_buffer.size() == 0 && m_write_buffer.size() != 0)) {
           m_is_write_mode = true;
         }
       } else {
@@ -353,10 +360,30 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
       }
       if (m_is_write_mode != m_prev_write_mode) {
         if (m_is_write_mode) {
-          std::cout << "ENTER WRITE MODE AT CYCLE: " << m_clk << std::endl;
+          // std::cout << "ENTER WRITE MODE AT CYCLE: " << m_clk << std::endl;
           m_write_mode_start_clk = m_clk;
+          if(m_clk < m_wait_panalty_cycle){
+            // std::cout << "BORDER ENTER CYCLE: " << m_wait_panalty_cycle - m_clk << std::endl;
+            // std::cout << "CLK NOW: " << m_clk << std::endl;
+            m_wait_cycles += m_wait_panalty_cycle - m_clk;
+          }
         } else {
-          std::cout << "WRITE DURATION CYCLES: " << m_clk - m_write_mode_start_clk << std::endl; 
+          // std::cout << "LEAVE WRITE MODE AT CYCLE: " << m_clk << std::endl;
+          if(m_write_mode_insts > 8){
+            std::cout << "WRITE LATENCY: " << static_cast<double>(m_clk - m_write_mode_start_clk) / m_write_mode_insts << std::endl;
+            // std::cout << "WRITE COUNT" << m_write_mode_insts << std::endl;
+            // std::cout << "ENTER WRITE MODE AT CYCLE: " << m_write_mode_start_clk << std::endl;
+            // std::cout << "WAIT BORDER AT CYCLE: " << 2 * m_write_mode_start_clk - m_clk << std::endl;
+            // m_wait_panalty_cycle = 2 * m_write_mode_start_clk - m_clk; //3200
+            Clk_t delay = m_wait_ratio * (m_clk - m_write_mode_start_clk);
+            if(delay > (m_wait_ratio - 1) * 64 * m_write_mode_insts){
+              delay = (m_wait_ratio - 1) * 64 * m_write_mode_insts;
+            }
+            m_wait_panalty_cycle = m_write_mode_start_clk + delay;
+            std::cout << "DELAY: " << delay << std::endl;
+            std::cout << "WAIT CYCLE: " << m_write_mode_start_clk + delay << std::endl;
+          }
+          m_write_mode_insts = 0;
         }
         m_prev_write_mode = m_is_write_mode;
       }
@@ -428,7 +455,9 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
     }
 
     void finalize() override {
+      // std::cout << "WAIT CYCLES TOTAL: " << m_wait_cycles << std::endl;
       s_avg_read_latency = (float) s_read_latency / (float) s_num_read_reqs;
+      s_wait_ratio = 100.0 * (float) m_wait_cycles / (float) m_clk;
 
       s_queue_len_avg = (float) s_queue_len / (float) m_clk;
       s_read_queue_len_avg = (float) s_read_queue_len / (float) m_clk;

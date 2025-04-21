@@ -408,21 +408,22 @@ class DDR5 : public IDRAM, public Implementation {
       int rate_id = [](int rate) -> int {
         switch (rate) {
           case 3200:  return 0;
+          case 6400:  return 1;
           default:    return -1;
         }
       }(m_timing_vals("rate"));
 
-      constexpr int nRRDL_TABLE[3][1] = {
-      // 3200  
-        { 5, },  // x4
-        { 5, },  // x8
-        { 5, },  // x16
+      constexpr int nRRDL_TABLE[3][2] = {
+      // 3200  6400
+        { 5, 10},  // x4
+        { 5, 10},  // x8
+        { 5, 10},  // x16
       };
-      constexpr int nFAW_TABLE[3][1] = {
-      // 3200  
-        { 40, },  // x4
-        { 32, },  // x8
-        { 32, },  // x16
+      constexpr int nFAW_TABLE[3][2] = {
+      // 3200 6400 
+        { 40, 40},  // x4
+        { 32, 32},  // x8
+        { 32, 32},  // x16
       };
 
       if (dq_id != -1 && rate_id != -1) {
