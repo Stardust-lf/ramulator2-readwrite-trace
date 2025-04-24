@@ -3,7 +3,7 @@ Frontend:
   clock_ratio: 16 # 8 threads * 4GHz
   # clock_ratio: 16
   num_expected_insts: 1000000
-  path: /home/fann/projects/cache_simulator/sampled_trace/pr_road_sampled.txt
+  path: /home/fann/projects/cache_simulator/sampled_trace/tc_twitter_sampled.txt
   # path: /home/fann/Downloads/507
   Translation:
     impl: NoTranslation
@@ -48,4 +48,4 @@ MemorySystem:
     plugins:
 
   AddrMapper:
-    impl: RoBaRaCoCh
+    impl: MOP4CLXOR

@@ -5,10 +5,10 @@ Frontend:
   clock_ratio: 16
   impl: ReadWriteTrace
   num_expected_insts: 1000000
-  path: /home/fann/projects/cache_simulator/sampled_trace/541_sampled.txt
+  path: /media/fann/T9/MEM_INTENSIVE_SPEC_GAP/tc_twitter_sampled.txt
 MemorySystem:
   AddrMapper:
-    impl: RoBaRaCoCh
+    impl: MOP4CLXOR
   Controller:
     RefreshManager:
       impl: AllBank
@@ -19,7 +19,7 @@ MemorySystem:
       impl: FRFCFS
     impl: Generic
     plugins: null
-    wait_ratio: '1.067'
+    wait_ratio: '2.286'
   DRAM:
     RFM:
       BRC: 2

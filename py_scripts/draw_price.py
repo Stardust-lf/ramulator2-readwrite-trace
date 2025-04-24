@@ -53,18 +53,24 @@ group_freqs = defaultdict(list)
 for freq, group in group_map.items():
     group_freqs[group].append(freq)
 def freq_key(f): return int(f.split("-")[1])
-group_labels = {group: "\n".join(sorted(freqs, key=freq_key)) for group, freqs in group_freqs.items()}
+def strip_prefix(freq):
+    return freq.split("-")[1]  # e.g., "DDR4-3200" → "3200"
+
+group_labels = {
+    group: "\n".join([strip_prefix(f) for f in sorted(freqs, key=freq_key)])
+    for group, freqs in group_freqs.items()
+}
 mean_df["X Label"] = mean_df.apply(lambda row: f"{group_labels[row['ReleaseGroup']]}\n({row['ReleaseGroup']})", axis=1)
 
 # === Plot side by side
-fig, axes = plt.subplots(1, 2, figsize=(14, 6), dpi=100)
+fig, axes = plt.subplots(1, 2, figsize=(10, 4), dpi=100)
 
 # Left subplot: DDR share
 ax = axes[0]
 xticks = list(df_ddr.index)
 xticklabels = [str(y) if y < 2026 else "2026\n(forecast)" for y in xticks]
 ax.set_xticks(xticks)
-ax.set_xticklabels(xticklabels, rotation=30, fontsize=11)
+ax.set_xticklabels(xticklabels, rotation=30, fontsize=10)
 
 bottom = np.zeros(len(df_ddr))
 for col in df_ddr.columns:
@@ -74,8 +80,8 @@ for col in df_ddr.columns:
 ax.set_ylabel('% of bits shipped', fontweight="bold")
 ax.set_ylim(0, 100)
 ax.grid(axis='y', linestyle='--', alpha=0.5)
-ax.text(-0.05, 1.05, "(a)", transform=ax.transAxes,
-     fontweight='bold', va='top', ha='left')
+ax.text(-0.05, 1.15, "(a)", transform=ax.transAxes,
+     fontweight='bold', va='top', ha='left', fontsize=20)
 ax.legend(title='DDR Gen.', loc='upper left', fontsize=12)
 
 # Right subplot: DRAM price trend
@@ -92,13 +98,15 @@ for i, year in enumerate(years):
 mid_x = [i + (bar_width * (len(years) - 1)) / 2 for i in x]
 # ax.set_title("DRAM Price by Released Frequency")
 ax.set_xticks(mid_x)
-ax.set_xticklabels(x_labels, rotation=30, fontsize=11)
+ax.set_xticklabels(x_labels, fontsize=11 )
 ax.set_ylabel("Average Price (USD/GB)", fontweight="bold")
 ax.grid(True, linestyle='--', linewidth=0.8, axis='y')
-ax.legend(title="Year", fontsize=12, loc='upper left', ncol=2)
+ax.legend(fontsize=12, loc='center left',
+          bbox_to_anchor=(1.02, 0.5),
+          borderaxespad=0)
 
-ax.text(-0.05, 1.05, "(b)", transform=ax.transAxes,
-         fontweight='bold', va='top', ha='left')
+ax.text(-0.05, 1.15, "(b)", transform=ax.transAxes,
+         fontweight='bold', va='top', ha='left', fontsize=20)
 
 plt.tight_layout()
 plt.savefig("2_2 pricepred.png")

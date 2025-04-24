@@ -24,6 +24,7 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
     size_t m_write_mode_start_clk = 0;
     size_t m_read_mode_start_clk = 0;
     size_t m_write_mode_insts = 0;
+    size_t m_read_mode_insts = 0; 
     size_t m_last_write_mode_insts = 0;
     Clk_t m_wait_panalty_cycle = 0;
     Clk_t m_wait_cycles = 0;
@@ -236,9 +237,13 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
           if (req_it->type_id == Request::Type::Read) {
             req_it->depart = m_clk + m_dram->m_read_latency;
             pending.push_back(*req_it);
+            m_read_mode_insts++ ;
           } else if (req_it->type_id == Request::Type::Write) {
             m_write_mode_insts++ ;
-            // TODO: Add code to update statistics
+             std::cout << "WRITE CMD: bankgroup = " 
+              << req_it->addr_vec[m_bank_addr_idx - 1]
+              << ", clk = " << m_clk << std::endl;
+             // TODO: Add code to update statistics
           }
           buffer->remove(req_it);
         } else {
@@ -353,13 +358,15 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
      */
     void set_write_mode() {
       if (!m_is_write_mode) {
-        if ((m_write_buffer.size() > m_wr_high_watermark * m_write_buffer.max_size) || (m_read_buffer.size() == 0 && m_write_buffer.size() != 0)) {
+        if ((m_write_buffer.size() > m_wr_high_watermark * m_write_buffer.max_size)){
           m_is_write_mode = true;
         }
+        // ENTER WRITE MODE
       } else {
-        if ((m_write_buffer.size() < m_wr_low_watermark * m_write_buffer.max_size) && m_read_buffer.size() != 0) {
+        if ((m_write_buffer.size() <= m_wr_low_watermark * m_write_buffer.max_size)) {
           m_is_write_mode = false;
         }
+        // LEAVE WRITE MODE
       }
       if (m_is_write_mode != m_prev_write_mode) {
         if (m_is_write_mode) {
@@ -369,7 +376,9 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
           if (last_write_duration > 0 && m_last_write_mode_insts > 8) {
             double rw_ratio = static_cast<double>(read_duration) / std::min(static_cast<size_t>(last_write_duration), 56 * m_last_write_mode_insts);
             std::cout << "READ DURATION: " << read_duration 
+                      << ", READ INSTS: " << m_read_mode_insts
                       << ", LAST WRITE DURATION: " << last_write_duration
+                      << ", LAST WRITE INSTS: " << m_last_write_mode_insts
                       << ", R/W DURATION RATIO: " << rw_ratio << std::endl;
           }
           // ENTER WRITE MODE
@@ -402,6 +411,7 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
           }
           m_last_write_mode_insts = m_write_mode_insts;
           m_write_mode_insts = 0;
+          m_read_mode_insts = 0;
         }
         m_prev_write_mode = m_is_write_mode;
       }
