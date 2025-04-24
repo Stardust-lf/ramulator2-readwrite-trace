@@ -19,7 +19,7 @@ MemorySystem:
       impl: FRFCFS
     impl: Generic
     plugins: null
-    wait_ratio: '2.286'
+    wait_ratio: '4.0'
   DRAM:
     RFM:
       BRC: 2

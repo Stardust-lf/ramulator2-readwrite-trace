@@ -37,7 +37,7 @@ MemorySystem:
 
   Controller:
     impl: Generic
-    wait_ratio: 2
+    wait_ratio: 4
     Scheduler:
       impl: FRFCFS
     RefreshManager:

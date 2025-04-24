@@ -28,7 +28,12 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
     size_t m_last_write_mode_insts = 0;
     Clk_t m_wait_panalty_cycle = 0;
     Clk_t m_wait_cycles = 0;
+    Clk_t CCDS_limit = 0;
+    Clk_t CCDL_limit = 0;
+    Clk_t m_write_prev_clock = 0;
     
+    size_t s_ccdsw_count = 0;
+    size_t s_ccdlw_count = 0;
     size_t s_row_hits = 0;
     size_t s_row_misses = 0;
     size_t s_row_conflicts = 0;
@@ -83,6 +88,8 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
       m_dram = memory_system->get_ifce<IDRAM>();
       m_bank_addr_idx = m_dram->m_levels("bank");
       m_priority_buffer.max_size = 512*3 + 32;
+      CCDS_limit = m_dram->m_timing_vals("nCCDS_WR");
+      CCDL_limit = m_dram->m_timing_vals("nCCDL_WR");
 
       m_num_cores = frontend->get_num_cores();
 
@@ -239,11 +246,18 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
             pending.push_back(*req_it);
             m_read_mode_insts++ ;
           } else if (req_it->type_id == Request::Type::Write) {
-            m_write_mode_insts++ ;
-             std::cout << "WRITE CMD: bankgroup = " 
+              m_write_mode_insts++ ;
+               std::cout << "WRITE CMD: bankgroup = " 
               << req_it->addr_vec[m_bank_addr_idx - 1]
-              << ", clk = " << m_clk << std::endl;
+              << ", clk = " << m_clk 
+              << ", delay = " << m_clk - m_write_prev_clock << std::endl;
              // TODO: Add code to update statistics
+             if(m_clk - m_write_prev_clock < CCDL_limit){
+               s_ccdsw_count ++;
+             }else{
+               s_ccdlw_count ++;
+             }
+             m_write_prev_clock = m_clk;
           }
           buffer->remove(req_it);
         } else {
@@ -379,8 +393,13 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
                       << ", READ INSTS: " << m_read_mode_insts
                       << ", LAST WRITE DURATION: " << last_write_duration
                       << ", LAST WRITE INSTS: " << m_last_write_mode_insts
-                      << ", R/W DURATION RATIO: " << rw_ratio << std::endl;
+                      << ", R/W DURATION RATIO: " << rw_ratio
+                      << ", CCDS_W(" << CCDS_limit << ") COUNT: " << s_ccdsw_count
+                      << ", CCDL_W(" << CCDL_limit << ") COUNT: " << s_ccdlw_count
+                      << std::endl;
           }
+          s_ccdsw_count = 0;
+          s_ccdlw_count = 0;
           // ENTER WRITE MODE
           // std::cout << "ENTER WRITE MODE AT CYCLE: " << m_clk << std::endl;
           m_write_mode_start_clk = m_clk;
@@ -400,11 +419,7 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
             // std::cout << "ENTER WRITE MODE AT CYCLE: " << m_write_mode_start_clk << std::endl;
             // std::cout << "WAIT BORDER AT CYCLE: " << 2 * m_write_mode_start_clk - m_clk << std::endl;
             // m_wait_panalty_cycle = 2 * m_write_mode_start_clk - m_clk; //3200
-            Clk_t delay = m_wait_ratio * (m_clk - m_write_mode_start_clk);
-            if(delay > m_wait_ratio * 56 * m_write_mode_insts){
-              // std::cout << "DELAY ALIGHED" << std::endl;
-              delay = m_wait_ratio * 56 * m_write_mode_insts;
-            }
+            Clk_t delay = m_wait_ratio * CCDS_limit * s_ccdsw_count;
             m_wait_panalty_cycle = m_write_mode_start_clk + delay;
             // std::cout << "DELAY: " << delay << std::endl;
             // std::cout << "WAIT CYCLE: " << m_write_mode_start_clk + delay << std::endl;
