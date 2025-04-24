@@ -1,0 +1,154 @@
+2007.17	0.066	2007	Mar15	Web		NewEgg.com	2097152	134.98		2x1 GB DIMM DDR2-667 @ $129.99 + 4.99 shipping	Wintec
+2007.33	0.0464	2007	May7	Web		NewEgg.com	2097152	94.99	5-5-5-18	2x1 GB DIMM DDR2-800 @ $94.99 + free shipping	A-Data
+2007.50	0.0386	2007	July9	Web		NewEgg.com	2097152	78.98	cas 5	2x1 GB DIMM DDR2-667 @ $73.99 + 4.99 shipping	Super Talent
+2007.67	0.0351	2007	Sept30	Web		NewEgg.com	2097152	71.98	cas 5	2x1 GB DIMM DDR2-800 @ $66.99 + 4.99 shipping	Mushkin
+2007.75	0.0322	2007	Oct16	Web		NewEgg.com	2097152	65.98	5-5-5-18	2x1 GB DIMM DDR2-800 @ $60.99 + 4.99 shipping	A-Data
+2007.83	0.0244	2007	Nov10	Web		NewEgg.com	2097152	49.98		2x1 GB DIMM DDR2-667 @ $44.99 + 4.99 shipping	Kingston
+2007.92	0.0244	2007	Dec05	Web		NewEgg.com	2097152	49.95	5-5-5-15	2x1 GB DIMM DDR2-800 @ $49.95 + free shipping	G.Skill
+2008.00	0.0232	2008	Jan18	Web		NewEgg.com	4194304	94.99	5-5-5-15	2x2 GB DIMM DDR2-800 @ $94.99 + free shipping	G.Skill
+2008.08	0.0220	2008	Feb20	Web		NewEgg.com	2097152	44.99	5-5-5-15	2x1 GB DIMM DDR2-800 @ $44.99 + free shipping	G.Skill
+2008.33	0.0220	2008	May18	Web		NewEgg.com	2097152	44.99	5-5-5-15	2x1 GB DIMM DDR2-800 @ $44.99 + free shipping	G.Skill
+2008.50	0.0207	2008	Jul07	Web		NewEgg.com	4194304	84.98	5-5-5-18	2x2 GB DIMM DDR2-800 @ $77.99 + 5.99 shipping	A-Data
+2008.58	0.0176	2008	Aug21	Web		NewEgg.com	2097152	35.99		2x1 GB DIMM DDR2-667 @ $35.99 + free shipping	Crucial
+2008.67	0.0146	2008	Sep25	Web		NewEgg.com	2097152	29.99	cas 5	2x1 GB DIMM DDR2-667 @ $29.99 + free shipping	Crucial
+2008.83	0.0110	2008	Nov14	Web		NewEgg.com	4194304	44.99	5-5-5-15	2x2 GB DIMM DDR2-800 @ $49.99 + free shipping	G.Skill
+2008.92	0.0098	2008	Dec14	Web		NewEgg.com	4194304	39.99	5-5-5-15	2x2 GB DIMM DDR2-800 @ $39.99 + free shipping	G.Skill
+2009.00	0.0098	2009	Jan19	Web		NewEgg.com	4194304	39.99	5-5-5-15	2x2 GB DIMM DDR2-800 @ $39.99 + free shipping	G.Skill
+2009.08	0.0107	2009	Feb14	Web		NewEgg.com	2097152	21.99	cas 6	2x1 GB DIMM DDR2-800 @ $21.99 + free shipping	Kingston
+2009.25	0.0105	2009	Apr03	Web		NewEgg.com	4194304	42.99	5-5-5-15	2x2 GB DIMM DDR2-800 @ $42.99 + free shipping	G.Skill
+2009.42	0.0115	2009	Jun03	Web		NewEgg.com	4194304	46.99	5-5-5-18	2x2 GB DIMM DDR2-800 @ $46.99 + free shipping	Corsair
+2009.50	0.0110	2009	Jul02	Web		NewEgg.com	4194304	44.99	5-5-5-18	2x2 GB DIMM DDR2-800 @ $44.99 + free shipping	Corsair
+2009.58	0.0127	2009	Aug20	Web		NewEgg.com	4194304	51.99	5-5-5-15	2x2 GB DIMM DDR2-800 @ $51.99 + free shipping	G.Skill
+2009.75	0.0183	2009	Oct07	Web		NewEgg.com	4194304	74.99	5-5-5-15	2x2 GB DIMM DDR2-1066 @ $74.99 + free shipping	Patriot
+2009.92	0.0205	2009	Dec12	Web		NewEgg.com	2097152	41.99		1x2 GB DIMM DDR2-800 @ $41.99 + free shipping	Crucial
+2010.00	0.0190	2010	Jan15	Web		NewEgg.com	4194304	77.99	5-5-5-15	2x2 GB DIMM DDR2-800 @ $77.99 + free shipping	Wintec
+2010.08	0.0202	2010	Feb11	Web		NewEgg.com	4194304	82.78	cas 5	2x2 GB DIMM DDR2-667 @ $79.99 + 2.99 shipping	Patriot
+2010.17	0.0195	2010	Mar10	Web		NewEgg.com	2097152	39.99	cas 5	2x1 GB DIMM DDR2-800 @ $39.99 + free shipping	Wintec
+2010.33	0.0242	2010	May09	Web		NewEgg.com	4194304	98.98	cas 5	2x2 GB DIMM DDR2-800 @ $92.99 + 5.99 shipping	PQi
+2010.50	0.0210	2010	Jul25	Web		NewEgg.com	4194304	85.98	9-9-9-20	2x2 GB DIMM DDR3-1333 @ $84.99 + 0.99 shipping	
+2010.58	0.0220	2010	Aug26	Web		NewEgg.com	4194304	89.99	9-9-9-24	2x2 GB DIMM DDR3-1333 @ $89.99 + free shipping	Patriot
+2010.75	0.0171	2010	Oct07	Web		NewEgg.com	4194304	69.99	7-7-7-20	2x2 GB DIMM DDR3-1066 @ $69.99 + free shipping	OCZ Gold
+2010.83	0.0146	2010	Nov16	Web		NewEgg.com	4194304	59.99	9-9-9-24	2x2 GB DIMM DDR3-1333 @ $59.99 + free shipping	Mushkin
+2010.92	0.0122	2010	Dec10	Web		NewEgg.com	8388608	99.99	9-9-9-24	2x4 GB DIMM DDR3-1333 @ $99.99 + free shipping	Mushkin
+2011.00	0.0100	2011	Jan21	Web		NewEgg.com	4194304	40.98	cas 9	2x2 GB DIMM DDR3-1333 @ $40.98 + free shipping	A-Data
+2011.08	0.0103	2011	Feb12	Web		NewEgg.com	4194304	41.99	cas 9	1x4 GB DIMM DDR3-1333 @ $41.99 + free shipping	Kingston
+2011.33	0.0100	2011	May06	Web		NewEgg.com	8388608	81.99	9-9-9-24	2x4 GB DIMM DDR3-1333 @ $81.99 + free shipping	GEIL
+2011.42	0.0085	2011	Jun22	Web		NewEgg.com	8388608	69.99	cas 9	2x4 GB DIMM DDR3-1333 @ $69.99 + free shipping	Kingston
+2011.67	0.0054	2011	Sep02	Web		NewEgg.com	4194304	21.99	cas 9	1x4 GB DIMM DDR3-1333 @ $21.99 + free shipping	Crucial
+2011.75	0.0051	2011	Oct17	Web		NewEgg.com	8388608	41.99	cas 9	2x4 GB DIMM DDR3-1333 @ $41.99 + free shipping	PNY Optima
+2012.00	0.0049	2012	Jan12	Web		NewEgg.com	8388608	39.99	9-9-9-24	2x4 GB DIMM DDR3-1600 @ $39.99 + free shipping	Corsair
+2012.08	0.0049	2012	Feb13	Web		NewEgg.com	8388608	39.99	cas 9	2x4 GB DIMM DDR3-1600 @ $39.99 + free shipping	Kingston
+2012.25	0.0050	2012	Apr08	Web		NewEgg.com	8388608	40.99	9-9-9-24	2x4 GB DIMM DDR3-1333 @ $40.99 + free shipping	Patriot
+2012.33	0.0049	2012	May24	Web		NewEgg.com	8388608	39.99	9-9-9-24	2x4 GB DIMM DDR3-1333 @ $39.99 + free shipping	Team Elite
+2012.58	0.0048	2012	Aug20	Web		NewEgg.com	16777216	77.99	cas 9	2x8 GB DIMM DDR3-1333 @ $77.99 + free shipping	Kingston
+2012.67	0.0040	2012	Sep21	Web		NewEgg.com	16777216	64.79	10-10-10-28	2x8 GB DIMM DDR3-1600 @ $64.79 + free shipping	GEIL EVO Corsa
+2012.83	0.0037	2012	Nov17	Web		NewEgg.com	8388608	29.99	cas 9	2x4 GB DIMM DDR3-1333 @ $29.99 + free shipping	Crucial Ballistix
+2013.00	0.0043	2013	Jan17	Web		NewEgg.com	8388608	34.99	9-9-9-24	2x4 GB DIMM DDR3-1600 @ $34.99 + free shipping	Wintec One
+2013.08	0.0054	2013	Feb23	Web		NewEgg.com	16777216	88.99	9-9-9-28	2x8 GB DIMM DDR3-1600 @ $88.99 + free shipping	GEIL EVO Corsa
+2013.33	0.0067	2013	May18	Web		NewEgg.com	16777216	109.99	9-10-9-28	2x8 GB DIMM DDR3-1866 @ $109.99 + free shipping	GEIL
+2013.42	0.0061	2013	Jun30	Web		NewEgg.com	8388608	49.99	cas 9	2x4 GB DIMM DDR3-1333 @ $49.99 + free shipping	
+2013.58	0.0073	2013	Aug09	Web		NewEgg.com	8388608	59.99	9-9-9	2x4 GB DIMM DDR3-1333 @ $59.99 + free shipping	WINTEC value
+2013.67	0.0065	2013	Sep07	Web		NewEgg.com	8388608	52.99	cas 10	1x8 GB DIMM DDR3-1600 @ $52.99 + free shipping	Crucial
+2013.75	0.0082	2013	Oct16	Web		NewEgg.com	16777216	133.99	10-11-10-30	2x8 GB DIMM DDR3-1866 @ $133.99 + free shipping	Patriot Intel ExMLE
+2013.83	0.0085	2013	Nov10	Web		NewEgg.com	8388608	69.99	cas 9	1x8 GB DIMM DDR3-1600 @ $69.99 + free shipping	Crucial Ballistix Sport
+2013.92	0.0079	2013	Dec23	Web		NewEgg.com	16777216	129.99	cas 11	2x8 GB DIMM DDR3-1600 @ $129.99 + free shipping	Silicon Power
+2014.08	0.0095	2014	Feb08	Web		NewEgg.com	4194304	38.99	cas 10	1x4 GB DIMM DDR3-1600 @ $38.99 + free shipping	Patriot Viper 3
+2014.17	0.0079	2014	Mar13	Web		NewEgg.com	8388608	64.99	cas 9	2x4 GB DIMM DDR3-1600 @ $64.99 + free shipping	HyperX XMP
+2014.25	0.0073	2014	Apr10	Web		NewEgg.com	4194304	29.99	11-11-11-28	1x4 GB DIMM DDR3-1600 @ $29.99 + free shipping	Team
+2014.42	0.0079	2014	Jun19	Web		NewEgg.com	8388608	64.99	9-9-9-24	2x4 GB DIMM DDR3-1333 @ $64.99 + free shipping	Team Elite
+2014.58	0.0085	2014	Aug02	Web		NewEgg.com	8388608	69.99	9-9-9-24	2x4 GB DIMM DDR3-1600 @ $69.99 + free shipping	Team Vulcan
+2014.67	0.0085	2014	Sep13	Web		NewEgg.com	8388608	69.99	9-9-9-24	2x4 GB DIMM DDR3-1600 @ $69.99 + free shipping	Team Vulcan
+2014.83	0.0085	2014	Nov11	Web		NewEgg.com	4194304	34.99	11-11-11-30	1x4 GB DIMM DDR3-1600 @ $34.99 + free shipping	Pareema
+2015.00	0.0078	2015	Jan22	Web		NewEgg.com	8388608	63.99	cas 10	1x8 GB DIMM DDR3-1866 @ $63.99 + free shipping	Hypexx Fury
+2015.08	0.0073	2015	Feb15	Web		NewEgg.com	8388608	59.99	cas 11	2x4 GB DIMM DDR3-1600 @ $59.99 + free shipping	Crucial
+2015.25	0.0061	2015	Apr11	Web		NewEgg.com	8388608	49.99	11-11-11-28	2x4 GB DIMM DDR3-1600 @ $49.99 + free shipping	Avexir
+2015.33	0.0056	2015	May15	Web		NewEgg.com	16777216	91.99	9-9-9-24	2x8 GB DIMM DDR3-1600 @ $91.99 + free shipping	Team Vulcan
+2015.50	0.0049	2015	Jul10	Web		NewEgg.com	8388608	39.99	11-11-11-28	1x8 GB DIMM DDR3-1600 @ $39.99 + free shipping	Team Elite
+2015.58	0.0045	2015	Aug23	Web		NewEgg.com	16777216	73.99	9-9-9-24	2x8 GB DIMM DDR3L-1600 @ $73.99 + free shipping	Mushkin Enhanced ECO2
+2015.67	0.0043	2015	Sep22	Web		NewEgg.com	8388608	34.99	9-9-9-24	2x4 GB DIMM DDR3-1333 @ $34.99 + free shipping	Team Elite
+2015.75	0.0042	2015	Oct24	Web		NewEgg.com	16777216	68.99	9-9-9-24	2x8 GB DIMM DDR3-1600 @ $68.99 + free shipping	Team Dark
+2015.83	0.0038	2015	Nov21	Web		NewEgg.com	16777216	62.99	9-9-9-24	2x8 GB DIMM DDR3-1600 @ $62.99 + free shipping	V-Color OC
+2015.92	0.0037	2015	Dec18	Web		NewEgg.com	16777216	59.99	10-10-10-27	2x8 GB DIMM DDR3-1600 @ $59.99 + free shipping	Team Vulcan
+2016.08	0.0036	2016	Feb14	Web		NewEgg.com	16777216	58.99	9-9-9-24	2x8 GB DIMM DDR3L-1600 @ $58.99 + free shipping	Mushkin Ehanced Essentials
+2016.25	0.0031	2016	Apr11	Web		NewEgg.com	16777216	49.99	9-9-9-24	2x8 GB DIMM DDR3L-1600 @ $49.99 + free shipping	Mushkin Ehanced Essentials
+2016.33	0.0030	2016	May18	Web		NewEgg.com	16777216	48.99	15-15-15-35	2x8 GB DIMM DDR4-2133 @ $48.99 + free shipping	Team Elite Plus
+2016.42	0.0027	2016	Jun20	Web		NewEgg.com	16777216	44.99	10-11-10-30	2x8 GB DIMM DDR3-1866 @ $44.99 + free shipping	V-Color OC Series
+2016.50	0.0031	2016	Jul22	Web		NewEgg.com	16777216	49.99	9-9-9-24	2x8 GB DIMM DDR3-1600 @ $49.99 + free shipping	Team Vulcan
+2016.58	0.0035	2016	Aug22	Web		NewEgg.com	16777216	57.99	9-9-9-24	2x8 GB DIMM DDR3-1600 @ $57.99 + free shipping	Team Vulcan
+2016.75	0.0035	2016	Oct15	Web		NewEgg.com	33554432	114.99	15-15-15-35	2x16 GB DIMM DDR4-2133 @ $114.99 + free shipping	G. Skill Aegis
+2016.83	0.0041	2016	Nov15	Web		NewEgg.com	16777216	67.99	15-15-15-36	2x8 GB DIMM DDR4-2133 @ $67.99 + free shipping	GEIL EVO Potenza
+2016.92	0.0046	2016	Dec21	Web		NewEgg.com	16777216	74.99	16-16-16-36	2x8 GB DIMM DDR4-3000 @ $74.99 + free shipping	Team Dark
+2017.00	0.0049	2017	Jan15	Web		NewEgg.com	16777216	79.99	16-18-18-38	2x8 GB DIMM DDR4-3000 @ $79.99 + free shipping	Team Vulcan
+2017.17	0.0055	2017	Mar12	Web		NewEgg.com	16777216	89.99	11-11-11-27	2x8 GB DIMM DDR3-2133 @ $89.99 + free shipping	Ballistic Elite
+2017.33	0.0057	2017	May05	Web		NewEgg.com	33554432	185.99	15-15-15-36	2x16 GB DIMM DDR4-2133 @ $185.99 + free shipping	GEIL Forza
+2017.42	0.0055	2017	Jun22	Web		NewEgg.com	16777216	89.99	9-9-9-24	2x8 GB DIMM DDR3-1600 @ $89.99 + free shipping	Team Dark
+2017.50	0.0059	2017	Jul22	Web		NewEgg.com	16777216	95.99	9-9-9-24	2x8 GB DIMM DDR3-1600 @ $95.99 + free shipping	Adata XPG V1.0
+2017.67	0.0061	2017	Sep19	Web		NewEgg.com	8388608	49.99	9-9-9-24	2x4 GB DIMM DDR3-1600 @ $49.99 + free shipping	Team Vulcan
+2017.75	0.0067	2017	Oct27	Web		NewEgg.com	16777216	109.99		2x8 GB DIMM DDR3-1600 @ $109.99 + free shipping	Team Elite Plus
+2017.92	0.0071	2017	Dec12	Web		NewEgg.com	16777216	115.99		2x8 GB DIMM DDR3-1600 @ $115.99 + free shipping	Silicon Power
+2018.08	0.0067	2018	Feb14	Web		NewEgg.com	16777216	108.99		2x8 GB DIMM DDR3-1600 @ $108.99 + free shipping	Silicon Power
+2018.17	0.0070	2018	Mar23	Web		NewEgg.com	16777216	113.99		2x8 GB DIMM DDR3-1600 @ $113.99 + free shipping	Team Dark
+2018.33	0.0068	2018	May11	Web		NewEgg.com	16777216	111.98		2x8 GB DIMM DDR3-1600 @ $110.99 + $0.99 shipping	Team Dark
+2018.42	0.0064	2018	Jun19	Web		NewEgg.com	16777216	104.99	11-11-11-28	2x8 GB DIMM DDR3-1600 @ $104.99 + free shipping	Adata XPG V1.0
+2018.50	0.0068	2018	Jul08	Web		NewEgg.com	16777216	110.98	9-9-9-24	2x8 GB DIMM DDR3-1600 @ $109.99 + $0.99 shipping	Team Vulcan
+2018.58	0.0062	2018	Aug24	Web		NewEgg.com	16777216	100.98		2x8 GB DIMM DDR3-1600 @ $99.99 + $0.99 shipping	Team Dark
+2018.67	0.0055	2018	Sep20	Web		NewEgg.com	16777216	89.99	11-11-11-28	2x8 GB DIMM DDR3-1600 @ $89.99 + free shipping	G.Skill
+2018.83	0.0051	2018	Nov11	Web		NewEgg.com	16777216	82.99	11-11-11-28	2x8 GB DIMM DDR3L-1600 @ $82.99 + free shipping	Mushkin Enhanced Essentials
+2018.92	0.0046	2018	Dec16	Web		NewEgg.com	8388608	37.99		1x8 GB DIMM DDR3-1333 @ $37.99 + free shipping	G.Skill Value Series
+2019.00	0.0043	2019	Jan17	Web		NewEgg.com	16777216	69.99	11-11-11-28	2x8 GB DIMM DDR3L-1600 @ $69.99 + free shipping	Mushkin Enhanced Essentials
+2019.08	0.0043	2019	Feb11	Web		NewEgg.com	16777216	69.99	11-11-11-28	2x8 GB DIMM DDR3L-1600 @ $69.99 + free shipping	Mushkin Enhanced Essentials
+2019.17	0.0042	2019	Mar17	Web		NewEgg.com	16777216	68.99	11-11-11-28	2x8 GB DIMM DDR3L-1600 @ $68.99 + free shipping	Mushkin Enhanced Essentials
+2019.25	0.0037	2019	Apr21	Web		NewEgg.com	16777216	60.98	11-11-11-28	2x8 GB DIMM DDR3-1600 @ $59.99 + $0.99 shipping	G.Skill Value
+2019.33	0.0034	2019	May20	Web		NewEgg.com	8388608	27.99	CL 11	1x8 GB DIMM DDR3-1600 @ $27.99 + free shipping	Patriot Signature Line
+2019.42	0.0032	2019	Jun19	Web		NewEgg.com	8388608	25.99	17-17-17-39	1x8 GB DIMM DDR4-2400 @ $25.99 + free shipping	OLOy MD4U0824171BSA
+2019.50	0.0027	2019	Jul18	Web		NewEgg.com	16777216	44.99	17-17-17-39	2x8 GB DIMM DDR4-2400 @ $44.99 + free shipping	OLOy  
+2019.58	0.0027	2019	Aug17	Web		NewEgg.com	16777216	44.99	17-17-17-39	2x8 GB DIMM DDR4-2400 @ $44.99 + free shipping	OLOy  
+2019.67	0.0033	2019	Sep16	Web		NewEgg.com	16777216	53.99	16-18-18-35	2x8 GB DIMM DDR4-2666 @ $53.99 + free shipping	OLOy
+2019.75	0.0031	2019	Oct18	Web		NewEgg.com	33554432	99.99	19-19-19-43	2x16 GB DIMM DDR4-2666 @ $99.99 + free shipping	G.Skill Aegis
+2019.83	0.0029	2019	Nov14	Web		NewEgg.com	33554432	94.99	16-18-18-36	2x16 GB DIMM DDR4-3000 @ $94.99 + free shipping	Geil Evo Potenza AMD
+2019.92	0.0028	2019	Dec17	Web		NewEgg.com	33554432	92.99	19-18-18-38	2x16 GB DIMM DDR4-3000 @ $92.99 + free shipping	OLOy
+2020.00	0.0029	2020	Jan20	Web		NewEgg.com	16777216	47.99	17-17-17-39	2x8 GB DIMM DDR4-2400 @ $47.99 + free shipping	OLOy
+2020.08	0.0031	2020	Feb17	Web		NewEgg.com	33554432	99.99	17-17-17-39	2x16 GB DIMM DDR4-2400 @ $99.99 + free shipping	OLOy
+2020.17	0.0035	2020	Mar23	Web		NewEgg.com	33554432	114.99	17-17-17-39	2x16 GB DIMM DDR4-2400 @ $114.99 + free shipping	OLOy
+2020.25	0.0035	2020	Apr23	Web		NewEgg.com	16777216	57.99	16-18-18-36	1x16 GB DIMM DDR4-3000 @ $57.99 + free shipping	OLOy
+2020.33	0.0035	2020	May23	Web		NewEgg.com	33554432	114.99	19-19-19-43	2x16 GB DIMM DDR4-2666 @ $114.99 + free shipping	G.Skill
+2020.42	0.0032	2020	Jun21	Web		NewEgg.com	33554432	104.99	15-15-15-39	2x16 GB DIMM DDR4-2400 @ $104.99 + free shipping	G.Skill X series
+2020.50	0.0029	2020	Jul18	Web		NewEgg.com	33554432	94.99	19-19-19-43	2x16 GB DIMM DDR4-2666 @ $94.99 + free shipping	G.Skill Aegis
+2020.58	0.0027	2020	Aug19	Web		NewEgg.com	33554432	89.99	22-22-22-52	1x32 GB DIMM DDR4-3200 @ $89.99 + free shipping	Team Elite
+2020.67	0.0028	2020	Sep20	Web		NewEgg.com	33554432	91.99	16-18-18-36	2x16 GB DIMM DDR4-2666 @ $91.99 + free shipping	OLOy
+2020.75	0.0027	2020	Oct17	Web		NewEgg.com	33554432	89.99	16-18-18-36	2x16 GB DIMM DDR4-3000 @ $89.99 + free shipping	GEIL Evo Potenza
+2020.83	0.0029	2020	Nov19	Web		NewEgg.com	33554432	94.99	20-22-22-46	2x16 GB DIMM DDR4-3200 @ $89.99 + free shipping	Team T-Force
+2020.92	0.0030	2020	Dec21	Web		NewEgg.com	33554432	97.99	16-18-18-38	2x16 GB DIMM DDR4-3000 @ $97.99 + free shipping	OLOy
+2021.08	0.0034	2021	Feb14	Web		NewEgg.com	33554432	109.99	16-18-18-38	2x16 GB DIMM DDR4-3000 @ $109.99 + free shipping	G.Skill Aegis
+2021.25	0.0040	2021	Apr17	Web		NewEgg.com	67108864	259.99	19-19-19-43	2x32 GB DIMM DDR4-2666 @ $259.99 + free shipping	G.Skill Value Series
+2021.33	0.0035	2021	May17	Web		NewEgg.com	67108864	229.99	19-19-19-43	2x32 GB DIMM DDR4-2666 @ $229.99 + free shipping	G.Skill Value Series
+2021.50	0.0039	2021	Jul11	Web		NewEgg.com	8388608	31.99	cas 11	1x8 GB DIMM DDR3-1600 @ $31.99 + free shipping	Patriot Signature Line
+2021.58	0.0037	2021	Aug16	Web		NewEgg.com	33554432	119.99	15-15-15-36	2x16 GB DIMM DDR4-2133 @ $119.99 + free shipping	G.Skill Ripjaws V
+2021.67	0.0032	2021	Sep18	Web		NewEgg.com	16777216	51.99	19-19-19-43	1x16 GB DIMM DDR4-2666 @ $51.99 + free shipping	G.Skill Aegis
+2021.75	0.0030	2021	Oct20	Web		NewEgg.com	16777216	48.99	17-17-17-39	1x16 GB DIMM DDR4-2400 @ $48.99 + free shipping	G.Skill Aegis
+2021.92	0.0026	2021	Dec15	Web		NewEgg.com	33554432	84.99	19-19-19-43	2x16 GB DIMM DDR4-2666 @ $84.99 + free shipping	G.Skill Aegis
+2022.00	0.0028	2022	Jan19	Web		NewEgg.com	33554432	92.99	19-19-19-43	2x16 GB DIMM DDR4-2666 @ $92.99 + free shipping	G.Skill Aegis
+2022.08	0.0029	2022	Feb17	Web		NewEgg.com	33554432	93.99	19-19-19-43	2x16 GB DIMM DDR4-2666 @ $93.99 + free shipping	G.Skill Aegis
+2022.17	0.0031	2022	Mar18	Web		NewEgg.com	33554432	99.99	16-20-20-40	2x16 GB DIMM DDR4-3200 @ $99.99 + free shipping	Team T-Force Vulcan TUF G.A.
+2022.25	0.0031	2022	Apr23	Web		NewEgg.com	16777216	50.98	17-17-17-39	1x16 GB DIMM DDR4-2400 @ $49.99 + $0.99 shipping	G.Skill Aegis
+2022.33	0.0027	2022	May15	Web		NewEgg.com	33554432	87.99	cas 22	1x32 GB SO-DIMM DDR4-3200 @87.99 + free shipping	G.Skill Ripjaws  
+2022.42	0.0026	2022	Jun18	Web		NewEgg.com	33554432	84.97	cas 22	2x16 GB SO-DIMM DDR4-3200 @84.97 + free shipping	Silicon Power
+2022.58	0.0023	2022	Aug20	Web		NewEgg.com	33554432	74.99	cas 22	1x32 GB SO-DIMM DDR4-3200 @74.99 + free shipping	OLOy
+2022.67	0.0022	2022	Sep16	Web		NewEgg.com	33554432	72.99	cas 19	1x32 GB SO-DIMM DDR4-2666 @72.99 + free shipping	Silicon Power
+2022.75	0.0022	2022	Oct18	Web		NewEgg.com	33554432	72.99	cas 19	2x16 GB SO-DIMM DDR4-2666 @72.99 + free shipping	Silicon Power
+2022.83	0.0021	2022	Nov05	Web		NewEgg.com	33554432	69.99	cas 19	1x32 GB SO-DIMM DDR4-2666 @69.99 + free shipping	Silicon Power
+2022.92	0.0021	2022	Dec18	Web		NewEgg.com	33554432	68.99	17-17-17-39	2x16 GB DIMM DDR4-2400 @ $68.99 + free shipping	G.Skill Aegis
+2023.00	0.0020	2023	Jan18	Web		NewEgg.com	33554432	63.98	cas 19	1x32 GB SO-DIMM DDR4-2666 @61.99 + $1.99 shipping	G.Skill Ripjaws
+2023.08	0.0018	2023	Feb18	Web		NewEgg.com	67108864	114.99	cas 22	2x32 GB SO-DIMM DDR4-3200 @114.99 + free shipping	Mushkin Enhanced Essentials
+2023.17	0.0018	2023	Mar18	Web		NewEgg.com	67108864	114.99	22-22-22-52	2x32 GB SO-DIMM DDR4-3200 @114.99 + free shipping	Mushkin Enhanced Essentials
+2023.33	0.00150	2023	May06	Web		NewEgg.com	67108864	97.99	cas 22	2x32 GB SO-DIMM DDR4-3200 @97.99 + free shipping	Team Elite
+2023.42	0.00143	2023	Jun17	Web		NewEgg.com	67108864	93.99	19-19-19-43	2x32 GB DIMM DDR4-2666 @ $93.99 + free shipping	Mushkin Enhanced Essentials
+2023.50	0.00140	2023	Jul18	Web		NewEgg.com	33554432	45.99		2x16 GB SO-DIMM DDR4-3200 @ $45.99	Team T-Create Classic
+2023.67	0.00142	2023	Sep19	Web		NewEgg.com	67108864	92.99	16-19-19-38	2x32 GB DIMM DDR4-3200 @ $92.99 + free shipping	Mushkin Enhanced Redline Stiletto
+2023.75	0.00137	2023	Oct20	Web		NewEgg.com	67108864	89.99	22-22-22-52	2x32 GB SO-DIMM DDR4-3200 @89.99 + free shipping	Team T-Create Classic
+2023.83	0.00128	2023	Nov16	Web		NewEgg.com	33554432	41.99	16-17-17-36	2x16 GB SO-DIMM DDR4-2666 @41.99 + free shipping	Mushkin Enhanced Redline
+2024.00	0.00157	2024	Jan14	Web		NewEgg.com	67108864	102.99	22-22-22-52	2x32 GB SO-DIMM DDR4-3200 @102.99 + free shipping	Team Elite  
+2024.08	0.00168	2024	Feb21	Web		NewEgg.com	67108864	109.99	22-22-22-52	2x32 GB SO-DIMM DDR4-3200 @109.99 + free shipping	Mushkin Enhanced Essentials
+2024.17	0.00153	2024	Mar21	Web		NewEgg.com	67108864	99.99	16-18-18-35	2x32 GB DIMM DDR4-2666 @99.99 + free shipping	Corsair Vengence LPX
+2024.33	0.00162	2024	May16	Web		NewEgg.com	33554432	52.99	22-22-22-52	2x16 GB DIMM DDR4-3200 @ $52.99 + free shipping	Team Elite
+2024.50	0.00153	2024	Jul28	Web		NewEgg.com	67108864	99.99	20-26-26-46	2x32 GB DIMM DDR4-3600 @99.99 + free shipping	Patriot Viper Elite

@@ -6,13 +6,14 @@ import pandas as pd
 import re
 
 # Get trace directory and output CSV filename from command-line arguments
-if len(sys.argv) > 1:
+if len(sys.argv) > 2:
     trace_dir = sys.argv[1]
     out_dir_path = sys.argv[2]
     slow_freq = sys.argv[3]
 else:
     trace_dir = "../traces/"
     out_dir_path = "./simu_out"
+    slow_freq = 1
 
 # if len(sys.argv) > 2:
 #     output_file = sys.argv[2]

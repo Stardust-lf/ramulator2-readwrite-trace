@@ -8,7 +8,7 @@ MemorySystem:
   total_num_other_requests: 0
   total_num_write_requests: 0
   total_num_read_requests: 1000
-  memory_system_cycles: 10361
+  memory_system_cycles: 9463
 
   DRAM:
     impl: DDR5
@@ -22,27 +22,27 @@ MemorySystem:
     impl: Generic
     id: Channel 0
     total_wait_cycles0: 0
-    avg_read_latency_0: 269.470001
-    read_queue_len_avg_0: 25.205965
+    avg_read_latency_0: 401.528992
+    read_queue_len_avg_0: 42.636692
     write_queue_len_0: 0
-    queue_len_0: 261159
+    queue_len_0: 403471
     num_other_reqs_0: 0
     num_write_reqs_0: 0
-    read_latency_0: 269470
+    read_latency_0: 401529
     priority_queue_len_avg_0: 0
-    row_hits_0: 899
+    row_hits_0: 862
     priority_queue_len_0: 0
-    row_misses_0: 42
+    row_misses_0: 48
     row_conflicts_0: 26
-    read_row_misses_0: 42
-    queue_len_avg_0: 25.205965
+    read_row_misses_0: 48
+    queue_len_avg_0: 42.636692
     read_row_conflicts_core_0: 0
-    read_row_hits_0: 899
+    read_row_hits_0: 862
     write_queue_len_avg_0: 0
     read_row_conflicts_0: 26
     write_row_misses_0: 0
     write_row_conflicts_0: 0
-    read_queue_len_0: 261159
+    read_queue_len_0: 403471
     write_row_hits_0: 0
     read_row_hits_core_0: 0
     read_row_misses_core_0: 0

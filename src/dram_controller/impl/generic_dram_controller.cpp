@@ -1,5 +1,6 @@
 #include "dram_controller/controller.h"
 #include "memory_system/memory_system.h"
+#include <algorithm>
 
 namespace Ramulator {
 
@@ -21,7 +22,9 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
     bool  m_is_write_mode = false;
     bool  m_prev_write_mode = false;
     size_t m_write_mode_start_clk = 0;
+    size_t m_read_mode_start_clk = 0;
     size_t m_write_mode_insts = 0;
+    size_t m_last_write_mode_insts = 0;
     Clk_t m_wait_panalty_cycle = 0;
     Clk_t m_wait_cycles = 0;
     
@@ -59,7 +62,7 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
 
   public:
     void init() override {
-      m_wr_low_watermark =  param<float>("wr_low_watermark").desc("Threshold for switching back to read mode.").default_val(0.2f);
+      m_wr_low_watermark =  param<float>("wr_low_watermark").desc("Threshold for switching back to read mode.").default_val(0.4f);
       m_wr_high_watermark = param<float>("wr_high_watermark").desc("Threshold for switching to write mode.").default_val(0.8f);
       m_wait_ratio = param<float>("wait_ratio").desc("Slow ratio of wait.").required();
 
@@ -360,29 +363,44 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
       }
       if (m_is_write_mode != m_prev_write_mode) {
         if (m_is_write_mode) {
+          Clk_t read_duration = m_clk - m_read_mode_start_clk;
+          Clk_t last_write_duration = m_read_mode_start_clk - m_write_mode_start_clk;
+
+          if (last_write_duration > 0 && m_last_write_mode_insts > 8) {
+            double rw_ratio = static_cast<double>(read_duration) / std::min(static_cast<size_t>(last_write_duration), 56 * m_last_write_mode_insts);
+            std::cout << "READ DURATION: " << read_duration 
+                      << ", LAST WRITE DURATION: " << last_write_duration
+                      << ", R/W DURATION RATIO: " << rw_ratio << std::endl;
+          }
+          // ENTER WRITE MODE
           // std::cout << "ENTER WRITE MODE AT CYCLE: " << m_clk << std::endl;
           m_write_mode_start_clk = m_clk;
+          // std::cout << "READ DURATION: " << m_clk - m_read_mode_start_clk << std::endl;
           if(m_clk < m_wait_panalty_cycle){
             // std::cout << "BORDER ENTER CYCLE: " << m_wait_panalty_cycle - m_clk << std::endl;
             // std::cout << "CLK NOW: " << m_clk << std::endl;
             m_wait_cycles += m_wait_panalty_cycle - m_clk;
+            std::cout << "WAITED CYCLES: " << m_wait_panalty_cycle - m_clk << std::endl;
           }
         } else {
           // std::cout << "LEAVE WRITE MODE AT CYCLE: " << m_clk << std::endl;
-          if(m_write_mode_insts > 8){
-            std::cout << "WRITE LATENCY: " << static_cast<double>(m_clk - m_write_mode_start_clk) / m_write_mode_insts << std::endl;
+          m_read_mode_start_clk = m_clk;
+          if(m_write_mode_insts > 16){
+            // std::cout << "WRITE DURATION: " << m_clk - m_write_mode_start_clk << std::endl;
             // std::cout << "WRITE COUNT" << m_write_mode_insts << std::endl;
             // std::cout << "ENTER WRITE MODE AT CYCLE: " << m_write_mode_start_clk << std::endl;
             // std::cout << "WAIT BORDER AT CYCLE: " << 2 * m_write_mode_start_clk - m_clk << std::endl;
             // m_wait_panalty_cycle = 2 * m_write_mode_start_clk - m_clk; //3200
             Clk_t delay = m_wait_ratio * (m_clk - m_write_mode_start_clk);
-            if(delay > (m_wait_ratio - 1) * 64 * m_write_mode_insts){
-              delay = (m_wait_ratio - 1) * 64 * m_write_mode_insts;
+            if(delay > m_wait_ratio * 56 * m_write_mode_insts){
+              // std::cout << "DELAY ALIGHED" << std::endl;
+              delay = m_wait_ratio * 56 * m_write_mode_insts;
             }
             m_wait_panalty_cycle = m_write_mode_start_clk + delay;
-            std::cout << "DELAY: " << delay << std::endl;
-            std::cout << "WAIT CYCLE: " << m_write_mode_start_clk + delay << std::endl;
+            // std::cout << "DELAY: " << delay << std::endl;
+            // std::cout << "WAIT CYCLE: " << m_write_mode_start_clk + delay << std::endl;
           }
+          m_last_write_mode_insts = m_write_mode_insts;
           m_write_mode_insts = 0;
         }
         m_prev_write_mode = m_is_write_mode;
