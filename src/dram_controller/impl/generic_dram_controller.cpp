@@ -388,7 +388,7 @@ class GenericDRAMController final : public IDRAMController, public Implementatio
           Clk_t last_write_duration = m_read_mode_start_clk - m_write_mode_start_clk;
 
           if (last_write_duration > 0 && m_last_write_mode_insts > 8) {
-            double rw_ratio = static_cast<double>(read_duration) / std::min(static_cast<size_t>(last_write_duration), 56 * m_last_write_mode_insts);
+            double rw_ratio = static_cast<double>(read_duration) / (s_ccdsw_count * CCDS_limit + s_ccdlw_count * CCDL_limit);
             std::cout << "READ DURATION: " << read_duration 
                       << ", READ INSTS: " << m_read_mode_insts
                       << ", LAST WRITE DURATION: " << last_write_duration

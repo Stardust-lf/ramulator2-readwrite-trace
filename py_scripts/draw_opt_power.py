@@ -35,36 +35,37 @@ greenmem_b[21] = np.mean(greenmem_b[10:20])
 x = np.arange(len(xtick_labels))
 width = 0.35
 
-fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10), sharex=True, dpi=150)
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 5), sharex=True, dpi=150)
 
-ax1.bar(x - width/2, baseline_a, width, label='Baseline', color='#FFA07A')
-ax1.bar(x + width/2, greenmem_a, width, label='SCREME-Recyc', color='#87CEFA')
-ax1.set_ylabel('Operational Power (W)', fontweight="bold")
+ax1.bar(x - width/2, baseline_a, width, edgecolor="black", label='Baseline', color='#FFA07A')
+ax1.bar(x + width/2, greenmem_a, width, edgecolor="black", label='SCREME-WO', color='#87CEFA')
+# ax1.set_ylabel('Operational Power (W)', fontweight="bold")
 # ax1.set_title('(a)')
-ax1.legend(loc="upper left")
+ax1.legend(loc="lower left", ncol=2)
 ax1.grid(axis='y', linestyle='--', alpha=0.6)
+ax1.set_ylabel('Opt. power (W)', fontweight="bold")
 
 for i in [20, 21]:
-    ax1.text(i - width/2, baseline_a[i] + 0.3, f'{baseline_a[i]:.1f}', ha='center', color="green", va='bottom', fontsize=11, fontweight='bold')
-    ax1.text(i + width/2, greenmem_a[i] + 0.3, f'{greenmem_a[i]:.1f}', ha='center', color="green", va='bottom', fontsize=11, fontweight='bold')
+    ax1.text(i - width/2, baseline_a[i] + 0.3, f'{baseline_a[i]:.1f}W', ha='center', color="purple", va='bottom', fontsize=12, fontweight='bold')
+    ax1.text(i + width/2, greenmem_a[i] + 0.3, f'{greenmem_a[i]:.1f}W', ha='center', color="purple", va='bottom', fontsize=12, fontweight='bold')
 
-ax2.bar(x - width/2, baseline_b, width, label='Baseline', color='#FFA07A')
-ax2.bar(x + width/2, greenmem_b, width, label='SCREME-Framewk', color='#87CEFA')
-ax2.set_ylabel('Operational Power (W)', fontweight="bold")
+ax2.bar(x - width/2, baseline_b, width, edgecolor="black", label='ganged-channel', color='#FFA07A')
+ax2.bar(x + width/2, greenmem_b, width, edgecolor="black", label='SCREME-framewk', color='#87CEFA')
+ax2.set_ylabel('Opt. power (W)', fontweight="bold")
 # ax2.set_title('(b)')
-ax2.legend()
+ax2.legend(loc="lower left", ncol=2)
 ax2.grid(axis='y', linestyle='--', alpha=0.6)
 ax2.set_xticks(x)
 ax2.set_xticklabels(xtick_labels, rotation=30, ha='right')
 
 for i in [20, 21]:
-    ax2.text(i - width/2, baseline_b[i] + 0.6, f'{baseline_b[i]:.1f}', ha='center', color = "green", va='bottom', fontsize=11, fontweight='bold')
-    ax2.text(i + width/2, greenmem_b[i] + 0.6, f'{greenmem_b[i]:.1f}', ha='center', color = "green", va='bottom', fontsize=11, fontweight='bold')
+    ax2.text(i - width/2, baseline_b[i] + 0.6, f'{baseline_b[i]:.1f}W', ha='center', color = "purple", va='bottom', fontsize=12, fontweight='bold')
+    ax2.text(i + width/2, greenmem_b[i] + 0.6, f'{greenmem_b[i]:.1f}W', ha='center', color = "purple", va='bottom', fontsize=12, fontweight='bold')
 
-ax1.text(-0.05, 1.05, "(a)", transform=ax1.transAxes,
+ax1.text(0.0, 1, "(a)", transform=ax1.transAxes,
      fontsize=16, fontweight='bold', va='top', ha='left')
 
-ax2.text(-0.05, 1.05, "(b)", transform=ax2.transAxes,
+ax2.text(0.0, 1, "(b)", transform=ax2.transAxes,
          fontsize=16, fontweight='bold', va='top', ha='left')
 
 plt.tight_layout()

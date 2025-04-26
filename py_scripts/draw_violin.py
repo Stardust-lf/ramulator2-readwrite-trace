@@ -81,9 +81,10 @@ for idx, i in enumerate([1600, 2400, 3200]):
     axs[0][idx].axhline(6400 / i - 1, linestyle='--', color=colors[idx], lw=2, label="Performance loss threshold") 
     # axs[0][idx].set_title(f"Violin Plot @ {i}")
     axs[0][idx].tick_params(axis='x', labelrotation=45)
-    axs[0][idx].set_ylabel("")
     axs[0][idx].set_ylim([0.5, 5])
+    axs[0][idx].set_ylabel("")
 
+axs[0][0].set_ylabel("Norm. read frame length", fontweight="bold")
 
 # 第二行：bar 图（用你给的表格数据）
 
@@ -118,6 +119,7 @@ for idx, i in enumerate([1600, 2400, 3200]):
     axs[1][idx].grid(True, linestyle='--', linewidth=0.8, axis='y')
     axs[1][idx].set_xticklabels(labels, rotation=30, ha='right', fontsize=9)
     axs[1][idx].yaxis.set_major_formatter(PercentFormatter(xmax=100, decimals=0))
+    axs[1][0].set_ylabel("Norm. execution time", fontweight="bold")
 
     # === 添加文字标签并应用 adjust_text ===
     top2_indices = np.argsort(heights)[:2]
